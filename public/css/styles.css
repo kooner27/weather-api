@@ -1,0 +1,41 @@
+body {
+  background-color: grey;
+  text-align: center;
+}
+
+.app-title {
+  margin-top: 15%;
+}
+
+.form {
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+}
+
+.form .form-control {
+  padding: 10px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form input[placeholder="City"] {
+  margin-bottom: 0px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form input[placeholder="Country"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+button {
+  width: 60%;
+  margin-top: 5%
+}

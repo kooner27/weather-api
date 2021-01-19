@@ -1,0 +1,24 @@
+OpenWeatherMap API
+
+This is a web application that uses openWeather's API. It allows the user to get the current weather conditions of a specified city.
+It runs on node and uses express.
+
+Installation:
+
+	Ensure node.js is installed
+	Install the required dependencies
+	$ npm install express body-parser https ejs
+
+
+Usage:
+
+	First start the web server
+	$ node app.js
+	The server is listening on port 3000 unless there is a preconfigured port
+	navigate to http://localhost:3000/ to be greeted with index.html
+	Enter a two letter country code and the name of city in that country
+
+	For demonstration, the two letter country code of Canada is CA
+
+
+Ideas for Improvement:

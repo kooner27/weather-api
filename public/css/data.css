@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+  text-align: center;
+}
+
+.location {
+  margin: auto;
+  margin-top: 15%;
+  margin-bottom: 10px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.temp {
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+}
+
+h2 {
+  margin: auto;
+  margin-top: 10px;
+}
