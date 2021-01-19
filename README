@@ -22,3 +22,13 @@ Usage:
 
 
 Ideas for Improvement:
+
+	https://datahub.io/core/country-list#data
+	Contains JSON file with all countries and their respective code
+	Use this to create a dictionary so that the user can input the country name instead of the code
+	
+	Exception handling for requests
+	
+	Make one API call and get current, hourly, weekly forecast and historical weather data
+	To do this the longitude and latitude coordinates must be specified
+	These are obtained with the API call in app.js
